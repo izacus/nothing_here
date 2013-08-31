@@ -17,6 +17,7 @@ tags:
     
 ---
 Previously I wrote about [encoding H.264 video for web][1]. Since video support in browsers [is kind of a mess][2], you'll be forced to re-encode videos to WebM (VP8/vorbis) format sooner or later if you want HTML5 playback. FFMpeg is able to use the official libvpx library, which makes it pretty easy. However, the support is still slightly buggy and the parameter mapping is non-obvious if you're used to encoding to other formats.
+<!--more-->
 
 So, let's start:
 

@@ -26,6 +26,8 @@ Streaming WebM to display in browser with HTML5 is currently quite problematic -
 
 Lesser known option is to use FFmpegs FFserver to stream WebM video. For this to work you need a decently current FFmpeg release (this article was written using stable 1.0 release) compiled with libvpx and ffserver support. New builds for FFmpeg are available [for Windows][3] and [Linux][4], however ffserver is available only on Linux.
 
+<!--more-->
+
 # 1. Configuring FFserver
 
 FFserver will be the deamon doing the actual delivery to client computers. It will need enough available outbound bandwidth to deliver video to all connected clients. Video stream encoding will be done by FFmpeg so machine running FFserver won't need alot of CPU power.
