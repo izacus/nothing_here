@@ -2,6 +2,7 @@
 title: Speeding up your Android emulator
 author: Jernej Virag
 layout: post
+comments: true
 permalink: /2012/10/speeding-up-android-emulator/
 categories:
   - Android
