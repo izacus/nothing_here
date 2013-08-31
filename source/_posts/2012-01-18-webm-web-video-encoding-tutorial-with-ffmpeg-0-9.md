@@ -2,6 +2,7 @@
 title: WebM web video encoding tutorial with FFMpeg
 author: Jernej Virag
 layout: post
+comments: true
 permalink: /2012/01/webm-web-video-encoding-tutorial-with-ffmpeg-0-9/
 categories:
   - Computer stuff

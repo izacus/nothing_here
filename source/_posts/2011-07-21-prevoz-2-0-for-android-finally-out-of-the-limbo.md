@@ -1,6 +1,7 @@
 ---
 title: Prevoz 2.0 for Android finally out of the limbo
 author: Jernej Virag
+comments: true
 layout: post
 permalink: /2011/07/prevoz-2-0-for-android-finally-out-of-the-limbo/
 categories:
