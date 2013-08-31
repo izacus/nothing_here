@@ -15,7 +15,7 @@ As I'm currently working on a compiler from a madeup language for compiler lectu
 
 So I found a simple divison algorithm, that speeds up basic "school child" subtractive division with shifting:
 
-``` asm
+```
 
  CMP             R2, #0
  BEQ divide_end
