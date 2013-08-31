@@ -16,6 +16,7 @@ tags:
   
 ---
 Web is full of articles about encoding videos with FFmpeg, however most of them are obsolete and use old non-working FFmpeg parameters. So here's my guide for encoding web videos using recent FFMpeg versions for Flash and HTML5.
+<!--more-->
 
 ### Step 1: Get a new build of FFmpeg
 

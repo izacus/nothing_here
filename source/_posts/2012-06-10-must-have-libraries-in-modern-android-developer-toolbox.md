@@ -20,6 +20,7 @@ Android is a platform that for better or for worse runs on wide variety of devic
 Ice Cream sandwich (and Honeycomb before it) brought significant improvements to the Android API, which significantly ease cross-device development and thanks to efforts of several developers a large part of those changes were backported in form of libraries for Android 2.x.
 
 The most headache-easing libraries for Android development I've found so far are:
+<!--more-->
 
 ## [1. Android Support Package][2]
 

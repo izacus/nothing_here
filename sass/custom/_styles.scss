@@ -1,2 +1,13 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+body {
+    font-size: 1.0em;
+}
+
+.profilepic {
+    float: right;
+    margin-right: 20px;
+    border: solid 1px #222;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .4);
+}

@@ -19,10 +19,10 @@ There is a writing on the wall of my workplace tea room that states "If you're n
 
 So in light of those problems and latest Prevoz legal developments I've finally managed to finish up version 2.0 of the Android mobile application and [publish it on Android Market][2].
 
-{% img /images/posts/2011_07_21_ss1.jpg 240 400 %}
 
 Sadly it does not have any significant new features, but it does feature reworked interface, which is easier to use and look at. Under-the-hood improvements should speed the application up and make it more reliable as well.
 
+{% img /images/posts/2011_07_21_ss1.jpg 240 400 %}
 {% img /images/posts/2011_07_21_ss2.jpg 240 400 %}
 
 All comments on the application are welcome :)
