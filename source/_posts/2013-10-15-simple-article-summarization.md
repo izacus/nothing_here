@@ -39,49 +39,49 @@ It also uses LemmaGen lemmatizer for stemming of words, which is available [on B
  
 ``` python summarizer.py
 
-    from collections import defaultdict
-    import operator
-    from lemmatizer.sllematizer import RdrLemmatizer
-    import nltk.data
-    from nltk import FreqDist
-    from nltk.tokenize import word_tokenize
-    import os
+from collections import defaultdict
+import operator
+from lemmatizer.sllematizer import RdrLemmatizer
+import nltk.data
+from nltk import FreqDist
+from nltk.tokenize import word_tokenize
+import os
 
-    lemmatizer = RdrLemmatizer("lem-me-sl.bin")
-    sent_detector = nltk.data.load("tokenizers/slovene.pickle")
+lemmatizer = RdrLemmatizer("lem-me-sl.bin")
+sent_detector = nltk.data.load("tokenizers/slovene.pickle")
 
-    stopwords = open("stopwords.txt"), "rb").read().splitlines()
-    stopwords = filter(lambda w: not w.startswith("#"), stopwords)
-    # Convert to unicode
-    stopwords = [word.decode("utf-8") for word in stopwords]
+stopwords = open("stopwords.txt"), "rb").read().splitlines()
+stopwords = filter(lambda w: not w.startswith("#"), stopwords)
+# Convert to unicode
+stopwords = [word.decode("utf-8") for word in stopwords]
 
-    # Get words from article
-    words = word_tokenize(article_text)
+# Get words from article
+words = word_tokenize(article_text)
 
-    # Filter non-alphanumeric chars from words
-    words = [filter(unicode.isalnum, word) for word in words]
-    words = filter(lambda w: len(w) > 0, words)  # Remove empty words
+# Filter non-alphanumeric chars from words
+words = [filter(unicode.isalnum, word) for word in words]
+words = filter(lambda w: len(w) > 0, words)  # Remove empty words
 
-    # Now lemmatize all words
-    words = [lemmatizer.lemmatize(word).lower() for word in words if word.lower() not in stopwords]
-    word_frequencies = FreqDist(words)
-    most_frequent = [word[0] for word in word_frequencies.items()[:50]]
+# Now lemmatize all words
+words = [lemmatizer.lemmatize(word).lower() for word in words if word.lower() not in stopwords]
+word_frequencies = FreqDist(words)
+most_frequent = [word[0] for word in word_frequencies.items()[:50]]
 
-    # Now get sentences
-    sentences = sent_detector.tokenize(article_text)
+# Now get sentences
+sentences = sent_detector.tokenize(article_text)
 
-    wordcountdict = defaultdict(int)
+wordcountdict = defaultdict(int)
 
-    for word in most_frequent:
-        lem_word = lemmatizer.lemmatize(word).lower()
-        for i in range(0, len(sentences)):
-            if lem_word in sentences[i]:
-                wordcountdict[i] += 1
+for word in most_frequent:
+	lem_word = lemmatizer.lemmatize(word).lower()
+	for i in range(0, len(sentences)):
+		if lem_word in sentences[i]:
+			wordcountdict[i] += 1
 
-    sorted_wordcounts = sorted(wordcountdict.iteritems(), key=operator.itemgetter(1), reverse=True)[:num_sentences]
+sorted_wordcounts = sorted(wordcountdict.iteritems(), key=operator.itemgetter(1), reverse=True)[:num_sentences]
     
-    summary = [sentences[num] for num, count in sorted_wordcounts]
-	print "Summary: %s" % (summary,) 
+summary = [sentences[num] for num, count in sorted_wordcounts]
+print "Summary: %s" % (summary,) 
 ```
 
 ## Improvements
