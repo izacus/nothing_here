@@ -21,6 +21,8 @@ tags:
 
 That's why I've created a Solr module, which uses JSIs [LemmaGen][2] lemmatizer for Solr index building and search queries. The source to the lemmatizer and module is available on Bitbucket [slovene_lemmatizer repository][3].
 
+<!--more-->
+
 ## Installing files
 
 ### 1. Download lemmatizer files
