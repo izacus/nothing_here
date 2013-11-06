@@ -33,9 +33,12 @@ The algorithm is heavily based on [article about summarization by Hu, Sun, Lim][
  
 ## The implementation
 
+
 [The implementation][3] uses [Natural Language Toolkit][4] Python library for basic text processing. NLTK is probably one of the best natural language processing libraries out there right now.
 
 It also uses LemmaGen lemmatizer for stemming of words, which is available [on BitBucket][5] with Python bindings.
+
+<!--more-->
  
 ``` python summarizer.py
 
