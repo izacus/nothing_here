@@ -70,6 +70,8 @@ github_skip_forks: true
 
 # Bitbucket repositories
 bitbucket_user: mavrik
+bitbucket_repo_show_count: 5
+bitbucket_repo_load_count: 50
 bitbucket_show_profile_link: true
 bitbucket_skip_forks: true
 
