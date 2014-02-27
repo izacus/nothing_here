@@ -19,8 +19,8 @@
 
         bitbucket.showRepos({
             user: '{{site.bitbucket_user}}',
-{% if site.bitbucket_repo_show_count %}            show_count: '{{site.bitbucket_repo_show_count}}',   {% endif %}
-{% if site.bitbucket_repo_load_count %}            load_count: '{{site.bitbucket_repo_load_count}}',   {% endif %}
+            {% if site.bitbucket_repo_show_count %}            show_count: '{{site.bitbucket_repo_show_count}}',   {% endif %}
+            {% if site.bitbucket_repo_load_count %}            load_count: '{{site.bitbucket_repo_load_count}}',   {% endif %}
             skip_forks: {{site.bitbucket_skip_forks}},
             target: '#bb_repos'
         });
