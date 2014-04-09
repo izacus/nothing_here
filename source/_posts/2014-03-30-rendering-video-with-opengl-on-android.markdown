@@ -22,6 +22,8 @@ The process has two steps:
 
 Since there is no `SurfaceTexture` equivalent of `GLSurfaceView` we have to initialize an OpenGL context manually. In bottom example we initialize OpenGL ES 2.0 context with disabled depth buffer prepared for 2D video rendering. We also define abstract `draw` metod to be extended with our drawing logic.
 
+<!--more-->
+
 ```java TextureSurfaceRenderer.java
 /**
  * Renderer which initializes OpenGL 2.0 context on a passed surface and starts a rendering thread
