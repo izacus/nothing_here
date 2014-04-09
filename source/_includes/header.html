@@ -28,7 +28,10 @@
 		{% endif %}
 		{% if site.github_user %}
 		<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
-		{% endif %}
+    {% endif %}
+    {% if site.bitbucket_user %}
+    <a class="bitbucket" href="https://bitbucket.com/{{ site.bitbucket_user }}" title="Bitbucket">Bitbucket</a>
+    {% endif %}
     {% if site.pinboard_user %}
     <a class="pinboard" href="https://pinboard.in/u:{{ site.pinboard_user }}" title="Pinboard">Pinboard</a>
     {% endif %}
@@ -51,9 +54,5 @@
     <a class="instagram" href="http://instagram.com/{{ site.instagram_user }}" title="Instagram">Instagram</a>
 		{% endif %}
 	</div>
-	<form class="search" action="{{ site.simple_search }}" method="get">
-		<input class="alignright" type="text" name="q" results="0">
-		<input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}">
-	</form>
 </nav>
 {% include custom/header.html %}
