@@ -19,7 +19,7 @@
 		}
 		a{
 			@include link-colors($color-gray02, $color-gray01);
-			@include transition(0.3s);
+			@include transition(color 0.3s);
 		}
 		.date, .tags, .comments{
 			padding-left: 30px;
