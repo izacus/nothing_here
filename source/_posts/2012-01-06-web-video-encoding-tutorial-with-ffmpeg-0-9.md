@@ -5,7 +5,6 @@ layout: post
 comments: true
 permalink: /2012/01/web-video-encoding-tutorial-with-ffmpeg-0-9/
 categories:
-  - Computer stuff
   - Video encoding / FFmpeg
 tags:
   - ffmpeg

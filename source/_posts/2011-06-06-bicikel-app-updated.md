@@ -5,8 +5,8 @@ layout: post
 permalink: /2011/06/bicikel-app-updated/
 categories:
   - Bicikel
-  - Computer stuff
   - My work
+  - Android
 tags:
   - android
   - bicikelj

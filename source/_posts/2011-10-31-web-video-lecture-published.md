@@ -5,10 +5,10 @@ layout: post
 comments: true
 permalink: /2011/10/web-video-lecture-published/
 categories:
-  - Computer stuff
   - Helpful tips
   - My work
   - Video encoding / FFmpeg
+  - Lectures
 tags:
   - ffmpeg
   - lectures

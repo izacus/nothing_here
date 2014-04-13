@@ -6,6 +6,7 @@ comments: true
 permalink: /2012/10/speeding-up-android-emulator/
 categories:
   - Android
+  - Helpful tips
 tags:
   - android
   - emulator

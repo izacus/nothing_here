@@ -6,7 +6,6 @@ permalink: /2011/03/a-new-project-is-born-recorded-lectures-and-slides/
 robotsmeta:
   - index,follow
 categories:
-  - Computer stuff
   - My work
   - sDetect
 tags:

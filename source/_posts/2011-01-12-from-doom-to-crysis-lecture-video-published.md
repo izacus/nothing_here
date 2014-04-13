@@ -4,8 +4,8 @@ author: Jernej Virag
 layout: post
 permalink: /2011/01/from-doom-to-crysis-lecture-video-published/
 categories:
-  - Computer stuff
   - My work
+  - Lectures
 tags:
   - Games
   - Kiberpipa

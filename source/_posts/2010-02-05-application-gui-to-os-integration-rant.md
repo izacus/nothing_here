@@ -4,7 +4,6 @@ author: Jernej Virag
 layout: post
 permalink: /2010/02/application-gui-to-os-integration-rant/
 categories:
-  - Computer stuff
   
 ---
 I have no idea why exactly is it so hard to make sure a Java application integrates seamlessly into OS. Applications keep inventing their own file open dialogs (even though OS provides it's own with your user settings), using their own graphical widgets and doing everything to kill user interface consistency.

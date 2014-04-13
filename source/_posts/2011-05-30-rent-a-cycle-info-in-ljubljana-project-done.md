@@ -5,8 +5,8 @@ layout: post
 permalink: /2011/05/rent-a-cycle-info-in-ljubljana-project-done/
 categories:
   - Bicikel
-  - Computer stuff
   - My work
+  - Android
 tags:
   - android
   - bicikelj

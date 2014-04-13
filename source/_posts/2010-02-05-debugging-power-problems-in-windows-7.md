@@ -6,7 +6,6 @@ permalink: /2010/02/debugging-power-problems-in-windows-7/
 robotsmeta:
   - index,follow
 categories:
-  - Computer stuff
   - Helpful tips
 tags:
   - power

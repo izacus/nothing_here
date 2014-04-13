@@ -3,18 +3,7 @@ title: On Phonegap and mobile development
 author: Jernej Virag
 layout: post
 permalink: /2010/07/on-phonegap-and-mobile-development/
-jd_tweet_this:
-  - yes
-jd_twitter:
-  - 'On #Phonegap and cross-platform mobile development - #url#'
-jd_wp_twitter:
-  - ' On #Phonegap and cross-platform mobile development - http://bit.ly/9uYoL3'
-wp_jd_target:
-  - http://www.virag.si/nic/?p=86
-wp_jd_bitly:
-  - http://bit.ly/9uYoL3
 categories:
-  - Helpful tips
   - My work
   - Rants
 tags:

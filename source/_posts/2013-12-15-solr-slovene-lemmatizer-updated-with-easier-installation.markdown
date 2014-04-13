@@ -6,9 +6,10 @@ date: 2013-12-15 21:17:26 +0100
 comments: true
 permalink: /2013/12/solr-slovenian-lemmatizer-updated/
 categories:
-  - Computer stuff
   - Helpful tips
   - My work
+  - Solr
+  - Text mining
 tags:
   - java
   - lemmagen

@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Playing video with effects using OpenGL on Android"
+permalink: /2014/03/playing-video-with-opengl-on-android/
 date: 2014-03-30 12:01:04 +0200
 comments: true
 categories:
-  - Computer stuff
   - Helpful tips
-  - My work 
+  - Android
 tags:
   - android
   - programming

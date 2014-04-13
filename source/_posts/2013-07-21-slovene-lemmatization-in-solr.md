@@ -5,10 +5,10 @@ layout: post
 comments: true
 permalink: /2013/07/slovene-lemmatization-in-solr/
 categories:
-  - Computer stuff
   - Helpful tips
   - My work
-  - Uncategorized
+  - Solr
+  - Text mining
 tags:
   - java
   - lemmagen

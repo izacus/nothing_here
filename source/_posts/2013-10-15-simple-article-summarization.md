@@ -5,9 +5,10 @@ layout: post
 comments: true
 permalink: /2013/10/simple-article-summarization/
 categories:
-  - Computer stuff
   - Helpful tips
   - My work
+  - Text mining
+  - Python
 tags:
   - python
   - nltk

@@ -5,9 +5,10 @@ layout: post
 comments: true
 permalink: /2013/11/lemmagen-available-for-python/
 categories:
-  - Computer stuff
   - Helpful tips
   - My work
+  - Text mining
+  - Python
 tags:
   - python
   - lemmagen

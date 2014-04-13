@@ -7,6 +7,7 @@ permalink: /2011/07/prevoz-2-0-for-android-finally-out-of-the-limbo/
 categories:
   - My work
   - Prevoz
+  - Android
 tags:
   - android
   - prevoz

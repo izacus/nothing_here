@@ -6,7 +6,6 @@ comments: true
 permalink: /2012/11/streaming-live-webm-video-with-ffmpeg/
 categories:
   - Helpful tips
-  - Uncategorized
   - Video encoding / FFmpeg
 tags:
   - ffmpeg

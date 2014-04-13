@@ -6,6 +6,7 @@ comments: true
 permalink: /2012/10/converting-utc-struct_time-to-datetime-in-python/
 categories:
   - Helpful tips
+  - Python
 tags:
   - python
   - timezones
