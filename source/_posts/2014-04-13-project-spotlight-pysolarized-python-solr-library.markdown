@@ -64,7 +64,7 @@ solr.add([ { "id": "c1en", "city_name": "Vienna", "country": "Austria", "languag
 solr.commit()
 ```
 
-PySolarized will use value of the `language` field to choose which core to send the document to - e.g. `"language": "si"` field in the document will cause PySolraized to send document to core with `si` identifier. Documents with unknown or missing language value will be sent to default endpoint.
+PySolarized will use value of the `language` field to choose which core to send the document to - e.g. `"language": "si"` field in the document will cause PySolarized to send document to core with `si` identifier. Documents with unknown or missing language value will be sent to default endpoint.
 Don't forget to call `commit` to commit changes in documents.
 
 PySolarized can also delete documents, clear are cores and do "More Like This" queries.
