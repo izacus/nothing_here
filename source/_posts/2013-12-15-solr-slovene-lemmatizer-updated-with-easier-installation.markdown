@@ -22,15 +22,15 @@ New version also updates package name and configuration attribute to be more con
 
 ## Installation
 
-### 1. Download library
+#### 1. Download library
 
 Download the library JAR from BitBucket: [Lemmatizer][1]
 
-### 2. Add library to Solr's Java path
+#### 2. Add library to Solr's Java path
 
 Copy library JAR to your application's server `lib` dir or copy it to your core's `lib` dir.  E.g. if your core is located in /var/solr/core, create a lib folder next to conf and data folders of the core and copy the `lemmatizer_solr_1.1.jar` there.
 
-### 3. Add lemmatizer to schema.xml
+#### 3. Add lemmatizer to schema.xml
 
 Add lemmatizer filter to your Solr schema and pass desired language to it:
 
