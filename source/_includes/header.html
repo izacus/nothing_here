@@ -20,10 +20,7 @@
 		{% if site.facebook_user %}
 		<a class="facebook" href="http://www.facebook.com/{{ site.facebook_user }}" title="Facebook">Facebook</a>
 		{% endif %}
-		{% if site.googleplus_user and site.googleplus_hidden == false %}
-		<a class="google" href="https://plus.google.com/{{ site.googleplus_user }}?rel=author" title="Google+">Google+</a>
-		{% endif %}
-		{% if site.twitter_user %}
+   	{% if site.twitter_user %}
 		<a class="twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter">Twitter</a>
 		{% endif %}
 		{% if site.github_user %}
@@ -46,6 +43,9 @@
 		{% endif %}
 		{% if site.delicious_user %}
 		<a class="delicious" href="http://delicious.com/{{ site.delicious_user }}" title="Delicious">Delicious</a>
+		{% endif %}
+		{% if site.googleplus_user and site.googleplus_hidden == false %}
+		<a class="google" href="https://plus.google.com/{{ site.googleplus_user }}?rel=author" title="Google+">Google+</a>
 		{% endif %}
 		{% if site.subscribe_rss %}
 		<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
