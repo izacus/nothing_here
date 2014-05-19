@@ -11,7 +11,7 @@ categories:
  - My Work
 ---
 
-This week, on april 26th, I gave a talk about Solr basics on [WebCamp Ljubljana][10]. Here I'm listing the slides, tips and the relevant links for anyone starting up with Solr.
+This week, on april 26th, I [gave a talk about Solr basics][11] on [WebCamp Ljubljana][10]. Here I'm listing the slides, tips and the relevant links for anyone starting up with Solr.
 
 <br />
 
@@ -48,6 +48,8 @@ Points of interest in the reference guide:
 
 [PySolarized][9] - My Solr/Python communication library with multilanguage support
 
+**EDIT**: Video is now available on [Webcamp Video][11] site.
+
 [1]: https://bitbucket.org/mavrik/news-buddy
 [2]: https://github.com/izacus/solr_example
 [3]: https://cwiki.apache.org/confluence/display/solr/Getting+Started
@@ -58,3 +60,4 @@ Points of interest in the reference guide:
 [8]: https://cwiki.apache.org/confluence/display/solr/Client+APIs
 [9]: https://www.virag.si/2014/04/project-spotlight-pysolarized/
 [10]: http://webcamp.si/
+[11]: http://video.webcamp.si/wc2014_virag_find_me_quickly_and_easily/
