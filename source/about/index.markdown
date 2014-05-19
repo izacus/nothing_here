@@ -14,4 +14,4 @@ My primary expertise lies in knowledge of video processing (having several years
 
 My poisons of choice are Java, C and Python, however I also have pracical experience in software development with web technologies (HTML/CSS/JS), C#, MatLab and Objective-C for iOS.
 
-
+Email: <a href="mailto:jernej.virag@gmail.com">jernej.virag@gmail.com</a>
