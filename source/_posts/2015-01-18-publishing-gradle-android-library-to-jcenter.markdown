@@ -204,6 +204,8 @@ After that you can upload and publish the artifact by simply running
 
 The first time you publish your library, you'll have to open the BinTray site, click on your package and click on `Maven Central`. This will requiest a review and public listing of your library on jCenter repository.
 
+For a full example examine the source of [FuzzyDateFormatter][2].
+
 
 [1]: https://bintray.com/
 [2]: https://github.com/izacus/FuzzyDateFormatter
