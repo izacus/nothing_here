@@ -13,12 +13,6 @@ categories:
 
 This week, on april 26th, I [gave a talk about Solr basics][11] on [WebCamp Ljubljana][10]. Here I'm listing the slides, tips and the relevant links for anyone starting up with Solr.
 
-<br />
-
-<script async class="speakerdeck-embed" data-id="f33543f0af680131b21e2611049e19f7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
-<br />
-
 Here I'm listing relevant links from the slide-deck which are good starting point for Solr deployment.
 
 ### Reference guide
@@ -47,6 +41,16 @@ Points of interest in the reference guide:
 [Solr Client Libraries][8] - List of Solr client libraries
 
 [PySolarized][9] - My Solr/Python communication library with multilanguage support
+
+### Slide deck
+
+<!-- more -->
+
+<br />
+
+<script async class="speakerdeck-embed" data-id="f33543f0af680131b21e2611049e19f7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<br />
 
 **EDIT**: Video is now available on [Webcamp Video][11] site.
 
