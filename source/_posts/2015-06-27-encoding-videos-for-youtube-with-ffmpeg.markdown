@@ -49,7 +49,7 @@ This should suffice for full confority. Parameters breakdown as follows:
 * `-flags +cgop` - closed GOP as per guideline
 * `-pix_fmt yuv420p` - chroma subsampling 4:2:0 as per guideline
 <br><br>
-* `-codec:a aac -strict -2` - set video codec to AAC
+* `-codec:a aac -strict -2` - set audio codec to AAC
 * `-b:a 384` - set audio bitrate to 348k, set this to 512k if you have 5.1 audio
 * `-r:a 48000` - set audio samplerate to 48000Hz as per guideline
 <br><br>
