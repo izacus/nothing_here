@@ -41,7 +41,7 @@ Get a 64-bit static build from [Linux static build site](http://johnvansickle.co
 ffmpeg -i <input file> -codec:v libx264 -crf 21 -bf 2 -flags +cgop -pix_fmt yuv420p -codec:a aac -strict -2 -b:a 384k -r:a 48000 -movflags faststart <output_name>.mp4 
 ```
 
-This should suffice for full confority. Parameters breakdown as follows:
+This should suffice for full conformity. Explanation of parameters used:
 
 * `-codec:v libx264` - set video codec to H.264
 * `-crf 21` - set video quality. Lower number means higher quality. 21 is a reasonable default which will create videos with bitrates as per guideline.
