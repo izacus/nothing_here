@@ -32,10 +32,6 @@ Relevant links from the slides:
 
 <script async class="speakerdeck-embed" data-id="fc9209e635524e9e9373806443d0578b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-<video controls preload="none" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2" width="960" height="720">
- <source src="{{ root_url }}/videos/webcamp_2015_jernej_virag_960x720_h264.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
-</video>
-
  [1]: http://2015.webcamp.si/
  [2]: https://www.ffmpeg.org/download.html
  [3]: https://github.com/arut/nginx-rtmp-module

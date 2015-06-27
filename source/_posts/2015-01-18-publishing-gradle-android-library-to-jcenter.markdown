@@ -27,7 +27,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.0.0'
+        classpath 'com.android.tools.build:gradle:1.2.1'
         classpath 'com.github.dcendents:android-maven-plugin:1.2'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -49,17 +49,17 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 // This is the library version used when deploying the artifact
-version = "1.0.0"
+version = "1.0.1"
 
 android {
     compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    buildToolsVersion "22.0.1"
     resourcePrefix "fuzzydatetime__"
 
     defaultConfig {
         minSdkVersion 9
         targetSdkVersion 21
-        versionCode 1
+        versionCode 2
         versionName version
 
     }
@@ -147,8 +147,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.0.0'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
+        classpath 'com.android.tools.build:gradle:1.2.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.2'
         classpath 'com.github.dcendents:android-maven-plugin:1.2'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
