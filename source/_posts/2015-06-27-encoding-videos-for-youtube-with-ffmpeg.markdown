@@ -20,17 +20,17 @@ One of the most commonly asked questions on Freenode/#ffmpeg is how to use it to
 
 Get decently new and updated ffmpeg - the current stable release is 2.7.
 
-### OS X:
+##### OS X:
 
 ```
 brew install ffmpeg
 ```
 
-### Windows:
+##### Windows:
 
 Get a 64-bit static build from [Zeranoe's site](http://ffmpeg.zeranoe.com/builds/).
 
-### Linux:
+##### Linux:
 
 Get a 64-bit static build from [Linux static build site](http://johnvansickle.com/ffmpeg/).
 
