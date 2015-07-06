@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Project spotlight: PySolarized Solr library"
-permalink: /2014/04/project-spotlight-pysolarized/
 date: 2014-04-13 18:12:35 +0200
 comments: true
 categories: 

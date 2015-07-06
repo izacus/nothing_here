@@ -2,7 +2,7 @@
 title: Simple division algorithm for ARM assembler
 author: Jernej Virag
 layout: post
-permalink: /2010/02/simple-division-algorithm-for-arm-assembler/
+
 categories:
   - Computer stuff
   - Helpful tips

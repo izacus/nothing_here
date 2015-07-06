@@ -3,7 +3,6 @@ title: Lemmagen slovenian lemmatizer available for python
 author: Jernej Virag
 layout: post
 comments: true
-permalink: /2013/11/lemmagen-available-for-python/
 categories:
   - Helpful tips
   - My work

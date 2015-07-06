@@ -2,7 +2,7 @@
 title: On Phonegap and mobile development
 author: Jernej Virag
 layout: post
-permalink: /2010/07/on-phonegap-and-mobile-development/
+
 categories:
   - My work
   - Rants

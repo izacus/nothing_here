@@ -2,7 +2,7 @@
 title: 'A new project is born: recorded lectures and slides'
 author: Jernej Virag
 layout: post
-permalink: /2011/03/a-new-project-is-born-recorded-lectures-and-slides/
+
 robotsmeta:
   - index,follow
 categories:

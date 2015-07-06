@@ -3,7 +3,7 @@ title: Must-have libraries in modern Android developer toolbox
 author: Jernej Virag
 layout: post
 comments: true
-permalink: /2012/06/must-have-libraries-in-modern-android-developer-toolbox/
+
 categories:
   - Android
 tags:

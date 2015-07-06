@@ -3,7 +3,7 @@ title: Simple article summarization
 author: Jernej Virag
 layout: post
 comments: true
-permalink: /2013/10/simple-article-summarization/
+
 categories:
   - Helpful tips
   - My work

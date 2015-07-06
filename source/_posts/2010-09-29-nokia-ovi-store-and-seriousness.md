@@ -2,7 +2,7 @@
 title: Nokia, Ovi Store and seriousness
 author: Jernej Virag
 layout: post
-permalink: /2010/09/nokia-ovi-store-and-seriousness/
+
 categories:
   - Computer stuff
   - Rants

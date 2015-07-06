@@ -2,7 +2,7 @@
 title: '&#8220;From Doom to Crysis&#8221; lecture video published'
 author: Jernej Virag
 layout: post
-permalink: /2011/01/from-doom-to-crysis-lecture-video-published/
+
 categories:
   - My work
   - Lectures

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Apache Solr Webcamp talk slides and links"
-permalink: /2014/04/webcamp-ljubljana-solr-talk/
 date: 2014-04-26 14:08:05 +0200
 comments: true
 categories: 

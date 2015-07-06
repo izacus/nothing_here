@@ -2,7 +2,7 @@
 title: Dispatching operations to UI thread in Silverlight
 author: Jernej Virag
 layout: post
-permalink: /2010/05/dispatching-operations-to-ui-thread-in-silverlight/
+
 wp_jd_target:
   - http://bit.ly/d8bZju
 wp_jd_bitly:

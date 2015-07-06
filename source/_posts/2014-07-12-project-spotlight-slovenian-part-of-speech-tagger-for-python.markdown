@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Project spotlight: Slovenian part-of-speech tagger for Python"
-permalink: /2014/07/project-spotlight-slopos/
 date: 2014-07-12 14:14:47 +0200
 comments: true
 categories: 

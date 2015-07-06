@@ -2,7 +2,7 @@
 title: Rent-a-cycle info in Ljubljana, project done
 author: Jernej Virag
 layout: post
-permalink: /2011/05/rent-a-cycle-info-in-ljubljana-project-done/
+
 categories:
   - Bicikel
   - My work

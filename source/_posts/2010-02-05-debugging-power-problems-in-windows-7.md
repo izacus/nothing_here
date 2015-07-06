@@ -2,7 +2,7 @@
 title: Debugging power problems in Windows 7
 author: Jernej Virag
 layout: post
-permalink: /2010/02/debugging-power-problems-in-windows-7/
+
 robotsmeta:
   - index,follow
 categories:

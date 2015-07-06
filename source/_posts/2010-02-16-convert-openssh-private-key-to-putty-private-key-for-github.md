@@ -2,7 +2,7 @@
 title: Convert OpenSSH private key to PuTTY private key for GitHub
 author: Jernej Virag
 layout: post
-permalink: /2010/02/convert-openssh-private-key-to-putty-private-key-for-github/
+
 categories:
   - Computer stuff
   - Helpful tips

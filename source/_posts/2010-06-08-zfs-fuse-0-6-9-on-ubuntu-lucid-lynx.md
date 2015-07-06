@@ -2,7 +2,7 @@
 title: ZFS-Fuse 0.6.9 on Ubuntu Lucid Lynx
 author: Jernej Virag
 layout: post
-permalink: /2010/06/zfs-fuse-0-6-9-on-ubuntu-lucid-lynx/
+
 categories:
   - Computer stuff
 tags:

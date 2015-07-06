@@ -2,7 +2,7 @@
 title: Sabayon Linux 4.2, my take
 author: Jernej Virag
 layout: post
-permalink: /2010/02/sabayon-linux-4-2-my-take/
+
 comments: true
 categories:
   - Computer stuff

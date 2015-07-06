@@ -2,7 +2,7 @@
 title: Hardware troubles
 author: Jernej Virag
 layout: post
-permalink: /2010/02/hardware-troubles/
+
 categories:
   
 ---

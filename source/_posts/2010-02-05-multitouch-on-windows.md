@@ -2,7 +2,7 @@
 title: Multi-touch on Windows
 author: Jernej Virag
 layout: post
-permalink: /2010/02/multitouch-on-windows/
+
 robotsmeta:
   - index,follow
 categories:

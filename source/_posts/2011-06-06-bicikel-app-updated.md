@@ -2,7 +2,7 @@
 title: Bicikel app updated
 author: Jernej Virag
 layout: post
-permalink: /2011/06/bicikel-app-updated/
+
 categories:
   - Bicikel
   - My work

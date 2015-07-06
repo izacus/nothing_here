@@ -3,7 +3,7 @@ title: Slovene lemmatization in Solr
 author: Jernej Virag
 layout: post
 comments: true
-permalink: /2013/07/slovene-lemmatization-in-solr/
+
 categories:
   - Helpful tips
   - My work

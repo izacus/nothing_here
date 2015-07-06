@@ -3,7 +3,7 @@ title: H.264 web video encoding tutorial with FFmpeg
 author: Jernej Virag
 layout: post
 comments: true
-permalink: /2012/01/web-video-encoding-tutorial-with-ffmpeg-0-9/
+
 categories:
   - Video encoding / FFmpeg
 tags:

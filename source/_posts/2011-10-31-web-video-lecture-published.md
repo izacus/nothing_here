@@ -3,7 +3,7 @@ title: Web video lecture published
 author: Jernej Virag
 layout: post
 comments: true
-permalink: /2011/10/web-video-lecture-published/
+
 categories:
   - Helpful tips
   - My work

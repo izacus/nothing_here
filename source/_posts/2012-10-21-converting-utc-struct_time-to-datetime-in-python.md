@@ -3,7 +3,7 @@ title: Converting UTC struct_time to datetime in Python
 author: Jernej Virag
 layout: post
 comments: true
-permalink: /2012/10/converting-utc-struct_time-to-datetime-in-python/
+
 categories:
   - Helpful tips
   - Python

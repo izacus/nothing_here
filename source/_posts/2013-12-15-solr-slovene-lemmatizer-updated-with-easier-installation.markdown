@@ -4,7 +4,6 @@ title: "Solr slovenian lemmatizer updated with easier installation"
 author: Jernej Virag
 date: 2013-12-15 21:17:26 +0100
 comments: true
-permalink: /2013/12/solr-slovenian-lemmatizer-updated/
 categories:
   - Helpful tips
   - My work

@@ -3,7 +3,7 @@ title: Streaming live WebM video with FFmpeg.
 author: Jernej Virag
 layout: post
 comments: true
-permalink: /2012/11/streaming-live-webm-video-with-ffmpeg/
+
 categories:
   - Helpful tips
   - Video encoding / FFmpeg

@@ -2,7 +2,7 @@
 title: Enumerate physical drives in Windows
 author: Jernej Virag
 layout: post
-permalink: /2010/02/enumerate-physical-drives-in-windows/
+
 categories:
   - Computer stuff
   - Helpful tips
