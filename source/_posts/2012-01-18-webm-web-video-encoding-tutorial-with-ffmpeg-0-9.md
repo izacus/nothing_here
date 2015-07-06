@@ -32,8 +32,9 @@ You'll have to choose resolution and bitrate into which to encode. For general g
 
 All the choices being made, now it's time to encode your video:
 
+```bash
 	ffmpeg -i input_file.avi -codec:v libvpx -quality good -cpu-used 0 -b:v 500k -qmin 10 -qmax 42 -maxrate 500k -bufsize 1000k -threads 4 -vf scale=-1:480 -codec:a libvorbis -b:a 128k output.webm
-
+```
 <address>
   (I'm using new-style parameters introduced in latest FFmpegs, old-style parameters are being slowly deprecated because of ambiguity)
 </address>
@@ -52,23 +53,21 @@ As mentioned in the previous article, FFmpeg parameters are position sensitive, 
 
 Now, let's break down the parameters for the encode:
 
-**-i [input file]** - Specifies the name and path to the input file  
-
-**-codec:v** - Specifies the video encoder to be used, in our case that is libvpx VP8 library  
-**-quality good** - Sets encoding speed for the VP8 encoder. This works in concert with cpu-used parameter. Available values are `best`, `good` and `realtime`. The official libvpx documentation strongly advises against using `best` quality parameter, because `good` with `cpu-used 0` offers almost identical quality for half the encoding time.  
-**-cpu-used [0-5]** - Sets "speed" of encoding " lower value uses more CPU for processing and produces better quality. Larger values trade quality for faster encoding, with 4 and 5 enabling "rate distortion optimization", which significantly speeds-up encoding with price of big quality hit.  
-**-b:v [bitrate]** - Sets desired output video bitrate  
-**-maxrate/-bufsize** - Set upper limits for stream bitrate, maxrate specifying maximum bitrate and bufsize specifying device buffer size. Buffer size tells the encoder how much it can overshoot the maximum bitrate when required. Good default is twice the maxrate for approx. 2sec of buffer.  
-**-qmin 10 -qmax 42** - This sets minimum and maximum quantization values. Since as of 0.9, FFmpeg sets those values wrong by default, adding these is **required** for a a decent video quality. Omitting these will produce blocky broken video.  
-**-threads [num]** - Sets number of encoding threads to use. Set to the number of your CPU cores available.
-**-vf scale=[width:height]** - Rescales video to a chosen resolution. Value of "-1&#8243; means "size to keep aspect ratio", e.g. setting this to "-1:720&#8243; will produce a 720p output with same aspect ratio as input.
-
-**-codec:a libvorbis** - Sets output audio encoder to libvorbis to produce vorbis output. This is required for a valid WebM file.
-**-b:a [bitrate]** - Sets bitrate for encoded audio.
-**-an** - disables audio, audio processing has no effect on first pass so itís best to disable it to not waste CPU.
-
-**-f webm** - tells FFmpeg the output file format (required only if it cannot be inferred from output file extension).
-**-pass [1|2]** - tells FFmpeg to process video in multiple passes and sets the current pass.
+Parameter            | Meaning   
+------------- |:-------------
+**-codec:v** | Specifies the video encoder to be used, in our case that is libvpx VP8 library  
+**-quality good** | Sets encoding speed for the VP8 encoder. This works in concert with cpu-used parameter. Available values are `best`, `good` and `realtime`. The official libvpx documentation strongly advises against using `best` quality parameter, because `good` with `cpu-used 0` offers almost identical quality for half the encoding time.  
+**-cpu-used [0-5]** | Sets "speed" of encoding " lower value uses more CPU for processing and produces better quality. Larger values trade quality for faster encoding, with 4 and 5 enabling "rate distortion optimization", which significantly speeds-up encoding with price of big quality hit.  
+**-b:v [bitrate]** | Sets desired output video bitrate  
+**-maxrate/-bufsize** | Set upper limits for stream bitrate, maxrate specifying maximum bitrate and bufsize specifying device buffer size. Buffer size tells the encoder how much it can overshoot the maximum bitrate when required. Good default is twice the maxrate for approx. 2sec of buffer.  
+**-qmin 10 -qmax 42** | This sets minimum and maximum quantization values. Since as of 0.9, FFmpeg sets those values wrong by default, adding these is **required** for a a decent video quality. Omitting these will produce blocky broken video.  
+**-threads [num]** | Sets number of encoding threads to use. Set to the number of your CPU cores available.
+**-vf scale=[width:height]** | Rescales video to a chosen resolution. Value of "-1&#8243; means "size to keep aspect ratio", e.g. setting this to "-1:720&#8243; will produce a 720p output with same aspect ratio as input.
+**-codec:a libvorbis** | Sets output audio encoder to libvorbis to produce vorbis output. This is required for a valid WebM file.
+**-b:a [bitrate]** | Sets bitrate for encoded audio.
+**-an** | disables audio, audio processing has no effect on first pass so itís best to disable it to not waste CPU.
+**-f webm** | tells FFmpeg the output file format (required only if it cannot be inferred from output file extension).
+**-pass [1 2]** | tells FFmpeg to process video in multiple passes and sets the current pass.
 
 That's mostly all there is to it " other FFmpeg mappings for libvpx can be found in [the documentation][3]. It's also worth noting, that libvpx supports the "profile" parameter, which sets complexity of output stream, much like H.264 has. However, since devices with WebM support are very scarce, there currently isn't much documentation on which devices supports which profile.
 

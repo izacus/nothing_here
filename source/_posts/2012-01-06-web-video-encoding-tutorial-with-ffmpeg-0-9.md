@@ -115,7 +115,9 @@ Otherwise, rule of thumb is to take around 128 kbit/s for standard quality mater
 
 So, you made all the hard choices and now it's time to encode your video. FFmpeg command line to encode a standard web video looks like this:
 
+```bash
 	ffmpeg -i input_file.avi -codec:v libx264 -profile:v high -preset slow -b:v 500k -maxrate 500k -bufsize 1000k -vf scale=-1:480 -threads 0 -codec:a libfdk_aac -b:a 128k output_file.mp4
+```
 
 You can also encode the video in two-passes, which gives the added benefit of quality increase and more accurate file size for given bitrate:
 
@@ -132,26 +134,26 @@ Scary isn't it?
 
 **Warning:** ffmpeg command line arguments are position sensitive - make sure you don't mix up the order. Good rule of thumb to prevent mistakes is to keep the order of  
 
+```bash
 	ffmpeg [input options] -i [input filename] -codec:v [video options] -codec:a [audio options] [output file options] [output filename]
+```
 
 Let's break down all those parameters:
 
-**-i [input file]** - this specifies the name of input file  
-**-codec:v libx264** - tells FFmpeg to encode video to H.264 using libx264 library  
-**-profile:v high** - sets H.264 profile to "High" as per Step 2. Other valid options are baseline, main  
-**-preset slow** - sets encoding preset for x264 &#8211; slower presets give more quality at same bitrate, but need more time to encode. "slow" is a good balance between encoding time and quality.  
-Other valid options are: *ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow, placebo (never use this one)*  
-**-b:v** - sets video bitrate in bits/s  
-**-maxrate and -bufsize** - forces libx264 to build video in a way, that it could be streamed over 500kbit/s line considering device buffer of 1000kbits. Very useful for web - setting this to bitrate and 2x bitrate gives good results.  
-**-vf scale** - applies "scale" filter, which resizes video to desired resolution. "720:480" would resize video to 720x480, "-1" means "resize so the aspect ratio is same."
-Usually you set only height of the video, so for 380p you set "scale=-1:380", for 720p "scale=-1:720" etc.  
-**-threads 0** - tells libx264 to choose optimal number of threads to encode, which will make sure all your processor cores in the computer are used
-
-**-codec:a libfdk_aac** - tells FFmpeg to encode audio to AAC using libfdk-aac library  
-**-b:a** - sets audio bitrate in bits/s
-
-**-pass [1|2]** - tells FFmpeg to process video in multiple passes and sets the current pass  
-**-an** - disables audio, audio processing has no effect on first pass so it's best to disable it to not waste CPU
+Parameter            |     Meaning   
+-----------------------------|:-------------
+**-i [input file]** | this specifies the name of input file  
+**-codec:v libx264** | tells FFmpeg to encode video to H.264 using libx264 library  
+**-profile:v high** | sets H.264 profile to "High" as per Step 2. Other valid options are baseline, main  
+**-preset slow** | sets encoding preset for x264 &#8211; slower presets give more quality at same bitrate, but need more time to encode. "slow" is a good balance between encoding time and quality. Other valid options are: *ultrafast, superfast, veryfast, faster, fast, medium, slow, slower, veryslow, placebo (never use this one)*  
+**-b:v** | sets video bitrate in bits/s  
+**-maxrate and -bufsize** | forces libx264 to build video in a way, that it could be streamed over 500kbit/s line considering device buffer of 1000kbits. Very useful for web - setting this to bitrate and 2x bitrate gives good results.  
+**-vf scale** | applies "scale" filter, which resizes video to desired resolution. "720:480" would resize video to 720x480, "-1" means "resize so the aspect ratio is same." Usually you set only height of the video, so for 380p you set "scale=-1:380", for 720p "scale=-1:720" etc.  
+**-threads 0** | tells libx264 to choose optimal number of threads to encode, which will make sure all your processor cores in the computer are used
+**-codec:a libfdk_aac** | tells FFmpeg to encode audio to AAC using libfdk-aac library  
+**-b:a** | sets audio bitrate in bits/s
+**-pass [1 2]** | tells FFmpeg to process video in multiple passes and sets the current pass  
+**-an** | disables audio, audio processing has no effect on first pass so it's best to disable it to not waste CPU
 
 That's basically all there is to it.  
 

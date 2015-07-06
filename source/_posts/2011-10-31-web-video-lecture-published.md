@@ -20,7 +20,7 @@ About a week ago [Webcamp Ljubljana][1] happened and among other awesome web-rel
 
 The lecture mostly outlines current web format war, different methods of video delivery and different methods of playing videos. The lecture was given in Slovenian language and is [available on Webcamp.si videos site][2].
 
-{% img /images/posts/2011_10_31_screenshot.png 716 286 %}
+{% asset_img 2011_10_31_screenshot.png %}
 
 All [WebcampLJ videos][3] are hosted by us ([Viidea ;)][4]) and I very much recommend seeing them, they contain several gold nuggets of knowledge.
 

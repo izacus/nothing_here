@@ -36,12 +36,12 @@ Google has provided the solution for this problem in form of *Snapshots* - funct
 
 To use snapshot functionality, you need to enable it in the AVD emulator settings when creating (or editing) a new emulator.
 
-{% img /images/posts/2012_10_30_emulator.png 402 511 Emulator settings window with snapshots enabled %}
-
+{% asset_img 2012_10_30_emulator.png Emulator settings window with snapshots enabled %}
+<br />
 After enabling snapshot support in the emulator, you need to start it via the AVD manager by selecting the emulator, clicking **Start** and making sure the options **Launch from snapshot** and **Save to snapshot** are chosen. The emulator is then started with a click on **Launch**.
 
-{% img /images/posts/2012_10_30_emulator_launch.png 722 570 Emulator launch with snapshot support %}
-
+{% asset_img 2012_10_30_emulator_launch.png Emulator launch with snapshot support %}
+<br />
 Each launch of the emulator (after first one, which will be slow) will now take only a second or two.
 
 # 2. x86 hardware acceleration
@@ -65,13 +65,13 @@ When image download is complete you just need to create an emulator using the im
 
 **For 2.3.3:** You need to choose `Intel Atom x86 System Image` as a target when creating new emulator.
 
-{% img /images/posts/2012_10_30_intel_233.png 402 511 Creating Intel x86 emaulator with Android 2.3.3 %}
+{% asset_img 2012_10_30_intel_233.png Creating Intel x86 emaulator with Android 2.3.3 %}
 
 **For 4.x:** You need to choose `Android 4.0.3 API Level 15` or `Android 4.1 API Level 16` as a target and then select `Intel Atom (x86) CPU/ABI` setting.
 
 Note: You MUST select an **Android** image, not *Google APIs* image to get a choice of Intel Atom ABI.
 
-{% img /images/posts/2012_10_30_intel_403.png 402 511 Creating Intel x86 emulator with Android 4.0.3 %}
+{% asset_img 2012_10_30_intel_403.png Creating Intel x86 emulator with Android 4.0.3 %}
 
 If you're using Windows or OS X you can now start the accelerated emulator.
 
@@ -82,7 +82,7 @@ If you're using Windows or OS X you can now start the accelerated emulator.
 to startup parameters of the emulator. This can be done in Eclipse when running your app (in `Run configuration` dialog).
 
 
-{% img /images/posts/2012_10_30_run_configuration.png 493 326 Linux Intel Run configuration %}
+{% asset_img 2012_10_30_run_configuration.png Linux Intel Run configuration %}
 
 More documentation is available on [Android Developer][7] pages.
 
@@ -93,7 +93,7 @@ Android Emulator renders everything in software without help of GPU which is the
 GPU Acceleration is off by default and has to be enabled when creating an emulator by adding a `GPU Emulation` setting set to `yes`.
 
 
-{% img /images/posts/2012_10_30_gpu_emulation.png 402 511 Fast Android 4.0.3 emulator with Intel image and GPU acceleration enabled %}
+{% asset_img 2012_10_30_gpu_emulation.png Fast Android 4.0.3 emulator with Intel image and GPU acceleration enabled %}
 
 **NOTE:** Snapshots won't work on emulators with GPU emulation enabled.
 
