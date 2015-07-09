@@ -74,4 +74,11 @@ feed:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: virag.si
+  user: root
+  root: /www/blog
+  port: 22
+  delete: true
+  verbose: false
+  ignore_errors: false
