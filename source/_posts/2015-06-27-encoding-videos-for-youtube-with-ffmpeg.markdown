@@ -41,6 +41,8 @@ ffmpeg -i <input file> -codec:v libx264 -crf 21 -bf 2 -flags +cgop -pix_fmt yuv4
 
 This should suffice for full conformity. Explanation of parameters used:
 
+<!-- more -->
+
 Parameter | Meaning
 ----------|:--------------
 **-codec:v libx264** | set video codec to H.264
