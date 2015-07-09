@@ -42,38 +42,15 @@ A rule of thumb to calculate file size from bitrate is:
 
 Some general resolution/bitrate guidelines that we've found to work well [at Viidea:][5]
 
-<table>
-	<tr>
-		<th>Resolution</th>
-		<th>Bitrate</th>
-		<th>Approximate size of 10 min video</th>
-	</tr>
-    <tr>
-        <td>320p (for mobile phones)</td>
-        <td>180 kbit/s</td>
-        <td>~13 MB</td>
-    </tr>
-    <tr>
-        <td>360p</td>
-        <td>300 kbit/s</td>
-        <td>~22 MB</td>
-    </tr>
-     <tr>
-        <td>480p</td>
-        <td>500 kbit/s</td>
-        <td>~37 MB</td>
-    </tr>
-    <tr>
-        <td>576p (SD/PAL)</td>
-        <td>850 kbit/s</td>
-        <td>~63 MB</td>
-    </tr>
-    <tr>
-        <td>720p</td>
-        <td>1000 kbit/s</td>
-        <td>~75 MB</td>
-    </tr>
-</table>    
+| Resolution | Bitrate | Approximate size of 10min video |
+|------------|:--------|:--------------------|
+| 320p (mobile) | 180 kbit/s | ~13 MB |
+| 360p       | 300 kbit/s | ~22MB |
+| 480p       | 500 kbit/s | ~37MB |
+| 576p (PAL) | 850 kbit/s | ~63MB |
+| 720p       | 1000 kbit/s | ~75 MB |
+
+<br />
 
 The values in the table were optimized for lecture-type content recorded with SD cameras, so if you want to encode something more dynamic (like Transformers ;) ) I suggest you bump the bitrate up a little.
 
@@ -81,25 +58,13 @@ The values in the table were optimized for lecture-type content recorded with SD
 
 Basic support matrix for devices:
 
-<table>
-<tr>
-	<th>Device</th>
-	<th>Max supported profile</th>
-</tr>
-<tr>
-	<td>Desktop browsers, iPhone 4S+, iPad 2+, Android 4.x+ tablets, Xbox 360, Playstation 3</td>
-	<td>High profile</td>
-</tr>
-<tr>
-	<td>iPhone 3GS, iPhone 4, iPad, low-end Android phones</td>
-	<td>Main profile</td>
-</tr>
-<tr>
-	<td>iPhone, iPhone 3G, old low-end Android devices, other embedded players</td>
-	<td>Baseline profile</td>
-</tr>
+| Device | Max supported profile |
+|--------|:---------------------|
+|Desktop browsers, iPhone 4S+, iPad 2+, Android 4.x+ tablets, Xbox 360, Playstation 3 | High profile |
+|iPhone 3GS, iPhone 4, iPad, low-end Android phones| Main profile |
+|iPhone, iPhone 3G, old low-end Android devices, other embedded players| Baseline profile |
 
-</table>
+<br />
 
 Remember, most devices also have a maximum resolution and bitrate they can handle. That is usually expressed in as a [H.264 level][6] and can be set in FFmpeg with -level parameter (this will make FFmpeg abort encoding of videos which couldn't be played on the device).
 
@@ -140,8 +105,8 @@ Scary isn't it?
 
 Let's break down all those parameters:
 
-Parameter            |     Meaning   
------------------------------|:-------------
+|Parameter            |     Meaning   |
+|-----------------------------|:-------------|
 **-i [input file]** | this specifies the name of input file  
 **-codec:v libx264** | tells FFmpeg to encode video to H.264 using libx264 library  
 **-profile:v high** | sets H.264 profile to "High" as per Step 2. Other valid options are baseline, main  

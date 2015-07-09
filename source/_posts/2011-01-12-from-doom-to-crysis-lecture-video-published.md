@@ -1,5 +1,5 @@
 ---
-title: '&#8220;From Doom to Crysis&#8221; lecture video published'
+title: '"From Doom to Crysis" lecture video published'
 author: Jernej Virag
 layout: post
 
@@ -13,7 +13,9 @@ tags:
 ---
 Some time ago I had a [lecture in Kiberpipa][1] about 3D game engine history titled "From Doom to Crysis" (*Od Pogube do Krize*) with some very nice demonstrations and anecdotes of modern 3D game engines and their older counterparts.
 
-{% img /images/posts/2011_01_12_pic.jpg 344 500 %}
+{% asset_img 2011_01_12_pic.jpg %}
+
+<br />
 
 The video is now available on [Kiberpipa video archive][2] with slides [available on Slideshare][3] (I suggest downloading original pptx file for embedded videos). The lecture is in Slovenian language.
 

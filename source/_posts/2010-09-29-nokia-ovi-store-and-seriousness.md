@@ -17,7 +17,9 @@ In my earlier post when I was ranting over I posted a screenshot of Prevoz appli
 
 The application has been complete for some time now and it was submitted to Ovi Store a little less than a month ago. Since then, we received response after 8 days, that there is a typo in metadata. We fixed the typo and re-submitted the application for review. The situation since then is shown on the image:
 
-{% img /imgaes/posts/2010_09_29_pic.png 300 51 %}
+{% asset_img 2010_09_29_pic.png %}
+
+<br />
 
 In **24 days**, they have been unable to review a simple little WRT widget written for their **timed** competition, where number of downloads in certain time span (which started running a month ago) is what determines the winner. In total that means it has been **32 days** since application has been submitted to Ovi store for the first time and it **still** hasn't received the first review. After all the stupid Nokia decisions, which make development for their platform a hell on earth, the completely absurd review process for Ovi store pretty much puts the last nail in the coffin of Nokia development.
 

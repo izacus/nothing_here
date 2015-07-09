@@ -18,11 +18,13 @@ Powercfg utility is known at least since the time of Windows Vista, mostly for s
 
 Running `powercfg /energy` will start the energy analysis and store results in `energy-report.html` file in System32 directory containing results looking pretty much like these:
 
-{% img /images/posts/2010_02_05_analysis.png 300 155 %}
+{% asset_img 2010_02_05_analysis.png %}
+
+<br />
 
 Also, with `powercfg /requests` you can check what is currently blocking system sleep:
 
-{% img /images/posts/2010_02_05_requests.png 300 151 %}
+{% asset_img 2010_02_05_requests.png %}
 
 This hint was found on [The Old New Thing][2] blog.
 

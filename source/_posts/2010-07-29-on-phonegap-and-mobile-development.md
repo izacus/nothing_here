@@ -41,7 +41,7 @@ We decided to use PhoneGap when starting to develop Prevoz.org Nokia application
 
 One rewrite and a lot of wasted time later, the application was developed in native Nokia WRT library with WRTKit widget framework:
 
-{% img /images/posts/2010_07_29_ss.png 194 300 %}
+{% asset_img 2010_07_29_ss.png %}
 
  [1]: http://www.robcottingham.ca/cartoon/archive/phonegap-in-action/
  [2]: http://www.phonegap.com/

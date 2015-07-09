@@ -12,4 +12,4 @@ People, please read user interface guidelines for every OS you are targeting and
 
 Here is a case of this crime against humanity (example of IntelliJ IDEA 9.0 interface on Windows 7):
 
-{% img /images/posts/2010_02_05_idea.png %}
+{% asset_img 2010_02_05_idea.png %}
