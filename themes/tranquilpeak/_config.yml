@@ -124,9 +124,9 @@ tag_pagination: 1
 
 # Integrated services
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: virag
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-9333947-1
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
 gravatar_email:
 # Your swiftype install key
