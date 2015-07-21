@@ -4,8 +4,8 @@ tags:
     - c++
     - 'tips & tricks'
     - cmake
-    - NDK
-    - Android
+    - ndk
+    - android
 ---
 
 C and C++ compilers aren't the fastest pieces of software out there and there's [no lack of programmer jokes](https://xkcd.com/303/) based on tedium of waiting for their work to complete.
