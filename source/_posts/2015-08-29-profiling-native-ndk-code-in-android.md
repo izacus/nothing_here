@@ -30,5 +30,5 @@ After hours of Googling I've found the last option - using the [nVidia Tegra Sys
 This actually gave me partially useful results and I was able to track down the perfromance regression. Even Tegra profiler couldn't fully unwind all traces connected to `libdispatch` library we're using - I'm figuring that `-fblocks` compiler parameter implements blocks in a way that's not recognised by the stack unwinder.
 
 {% asset_img profiler.jpg Tegra profiler example %}
-
-I hope Google improves their NDK tools soon.
+<br />
+I hope Google improves their NDK tools soon - lack of basic profilers and code checkers makes Android native development needlessly time consuming and complex.
