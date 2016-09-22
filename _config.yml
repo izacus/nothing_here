@@ -71,6 +71,37 @@ feed:
     path: atom.xml
     limit: 100
 
+# Quick start Settings of hexo-amp-generator 
+generator_amp:
+  templateDir: amp-template
+  assetDistDir: amp-dist
+  templateFilePath: amp-template.ejs
+  cssFilePath: amp.css
+  logo:
+    path: avatar.jpg
+    width: 0
+    height: 0
+  substituteTitleImage: 
+    path: avatar.jpg
+    width: 0
+    height: 0
+  google_analytics: UA-9333947-1
+  warningLog: false
+
+authorDetail:
+  authorReading: Jernej Virag        #(optional) 
+  avatar:
+    path: avatar.jpg                          #(optional) 
+    width: 150                                #(optional) 
+    height: 150                               #(optional) 
+  description: Android team lead at PSPDFKit, C++/Android professional              #(optional) 
+
+html_minifier:
+  html5: true
+  removeComments: true
+  collapseWhitespace: true
+  exclude: 
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
