@@ -87,6 +87,11 @@ generator_amp:
     height: 0
   google_analytics: UA-9333947-1
   warningLog: false
+  html_minifier:
+    html5: true
+    removeComments: true
+    collapseWhitespace: true
+    exclude: 
 
 authorDetail:
   authorReading: Jernej Virag        #(optional) 
