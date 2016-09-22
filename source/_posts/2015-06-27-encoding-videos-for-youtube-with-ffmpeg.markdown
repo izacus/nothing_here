@@ -3,7 +3,6 @@ layout: post
 comments: true
 title: "Encoding videos for YouTube with FFMpeg"
 date: 2015-06-27 14:53:15 +0200
-comments: true
 categories: 
   - Helpful tips
   - Video encoding / FFmpeg
